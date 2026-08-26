@@ -73,3 +73,19 @@ table.tot td:first-child{color:var(--pink);font-weight:700;width:110px}
 .foot p{margin:0 0 8px}
 .nav{font-size:13px;margin:0 0 18px}
 .nav a{text-decoration:none;font-weight:700}
+.stat{background:var(--deep);color:#fff;border-radius:14px;padding:20px 22px;margin:0 0 20px}
+.stat .big{font-size:21px;font-weight:700;line-height:1.35}
+.stat .sub{font-size:13px;color:#ffc9de;padding-top:9px}
+.badge{display:inline-block;font-size:11px;font-weight:700;padding:3px 9px;
+  border-radius:20px;background:var(--tint);color:var(--pink);margin:0 5px 5px 0;
+  text-transform:uppercase;letter-spacing:.06em}
+.badge.good{background:#ebfbee;color:var(--green)}
+.badge.warn{background:#fff4e6;color:var(--amber)}
+.badge.dead{background:#f1f3f5;color:var(--muted)}
+@media (prefers-color-scheme:dark){
+  .badge.good{background:#16301c}.badge.warn{background:#33220f}
+  .badge.dead{background:#252026}}
+dl.row{margin:12px 0 0;font-size:14px}
+dl.row dt{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
+  color:var(--muted);margin-top:9px}
+dl.row dd{margin:2px 0 0;color:var(--soft)}
